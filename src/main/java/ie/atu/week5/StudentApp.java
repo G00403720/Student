@@ -10,5 +10,8 @@ public class StudentApp {
         String name = input.nextLine();
         System.out.println("You entered : " + name);
 
+        System.out.println("Please enter your student email");
+        String email = input.nextLine();
+        System.out.println("You entered : " + email);
     }
 }
