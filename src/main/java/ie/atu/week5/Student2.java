@@ -1,6 +1,6 @@
 package ie.atu.week5;
 
-
+//
 public class Student2 {
    private String name;
    private String email;
