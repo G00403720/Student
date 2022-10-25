@@ -2,8 +2,8 @@ package ie.atu.week5;
 
 public class Student3 {
    private String name;
-   private double email;
-   private double course;
+   private String email;
+   private String course;
 
     public String getName() {
         return name;
@@ -13,19 +13,19 @@ public class Student3 {
         this.name = name;
     }
 
-    public double getEmail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(double email) {
+    public void setEmail(String email) {
         this.email = email;
     }
 
-    public double getCourse() {
+    public String getCourse() {
         return course;
     }
 
-    public void setCourse(double course) {
+    public void setCourse(String course) {
         this.course = course;
     }
 }
